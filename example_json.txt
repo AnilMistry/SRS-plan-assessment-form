@@ -1,0 +1,82 @@
+{
+	"name" : "John SMITH",
+	"pat_id" :  "12345678",
+	"dob" : " 01/12/1980",
+	"site" : "Brain",
+	"prescription" : "36",
+	"fractionation" : "3",
+	"dose_per_fraction" : "12",
+	"plan_geometry" : "Non-Coplanar",
+	"planner": "p_Lanner",
+	
+	"ptvs": [
+			{
+				"ptv_name":"PTV1",
+				"ptv_vol": "12",
+				"gtv_vol": "6",
+				"ptv_v100" : "14",
+				"ptv_dose" : "36",
+				"ptv_d100" : "35.5",
+				"ptv_d99" : "35.8",
+				"body_v100" : "17.44",
+				"body_v80" : "18.0001",
+				"body_v50" : "20.985",
+				"body_v30" : "35.33",
+				"body_v10" : "45.5",
+				"brain_ptv_v10": "4.4",
+				"brain_ptv_v12": "3.2"
+			},
+
+			{
+				"ptv_name":"PTV2",
+				"ptv_vol": "16",
+				"gtv_vol": "8",
+				"ptv_v100" : "17",
+				"ptv_dose" : "36",
+				"ptv_d100" : "28.6",
+				"ptv_d99" : "40.66",
+				"body_v100" : "18.86",
+				"body_v80" : "19.05",
+				"body_v50" : "23.45",
+				"body_v30" : "38.345",
+				"body_v10" : "42.5678",
+				"brain_ptv_v10": "3.2",
+				"brain_ptv_v12": "2.1"
+			},
+
+			{
+				"ptv_name":"PTV3",
+				"ptv_vol": "13.66",
+				"gtv_vol": "5.5",
+				"ptv_v100" : "15.33",
+				"ptv_dose" : "36",
+				"ptv_d100" : "37.2",
+				"ptv_d99" : "38.3",
+				"body_v100" : "16.22",
+				"body_v80" : "20.43",
+				"body_v50" : "35.99",
+				"body_v30" : "37.482",
+				"body_v10" : "50.32",
+				"brain_ptv_v10": "6.4",
+				"brain_ptv_v12": "2.2"
+			},
+
+			{
+				"ptv_name":"PTV4",
+				"ptv_vol": "8.9",
+				"gtv_vol": "6.2",
+				"ptv_v100" : "8.8",
+				"ptv_dose" : "36",
+				"ptv_d100" : "30.2",
+				"ptv_d99" : "31.43",
+				"body_v100" : "10.3",
+				"body_v80" : "12.4",
+				"body_v50" : "15.34",
+				"body_v30" : "19.22",
+				"body_v10" : "23.444",
+				"brain_ptv_v10": "6.2",
+				"brain_ptv_v12": "3.5"
+			}
+		]
+
+}
